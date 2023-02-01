@@ -58,10 +58,7 @@ function secondaryColor(color) {
       showModal("Failed to copy color value: ", err);
     });
   navbar.style.borderColor = color.value;
-  footer.style.borderColor = color.value;
-  primaryColor.style.color = color.value;
-
-  console.log(color.value);
+  footer.style.borderColor = color.value;;
 }
 
 function textColor(color) {
