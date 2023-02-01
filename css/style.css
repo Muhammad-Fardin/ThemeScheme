@@ -37,7 +37,7 @@ input[type="color"] {
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
-  height: 20%;
+  height: 15%;
   width: 100%;
   margin-top: 2rem;
 }
@@ -45,16 +45,19 @@ input[type="color"] {
 .primary {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .text {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .secondary {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .layout {
@@ -67,7 +70,7 @@ input[type="color"] {
   width: 400px;
   height: 200px;
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 20px;
   background-color: var(--secondary-color);
   border-radius: 12px;
@@ -75,7 +78,7 @@ input[type="color"] {
 }
 
 .box:hover {
-  box-shadow: -10px -10px 10px cyan;
+  box-shadow: -10px -10px 10px black;
   
 }
 
