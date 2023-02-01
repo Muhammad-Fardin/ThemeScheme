@@ -5,6 +5,8 @@ var navbar = document.querySelector(".navbar");
 var footer = document.querySelector(".footer");
 var text = document.getElementById("text");
 var logo = document.getElementById("logo");
+var boxP3 = document.getElementById('box3-para');
+var boxP6 = document.getElementById("box6-para");
 var primaryText = document.getElementById("primary-text");
 var secondaryText = document.getElementById("secondary-text");
 var footerHeading = document.getElementById("footer-heading");
@@ -31,6 +33,7 @@ function primaryColor(color) {
   navbar.style.backgroundColor = color.value;
   footer.style.backgroundColor = color.value;
   document.body.style.backgroundColor = color.value;
+  boxP6.style.color = color.value;
   console.log(color.value);
   navigator.clipboard
     .writeText(color.value)
@@ -66,6 +69,7 @@ function textColor(color) {
   footerHeading.style.color = color.value;
   secondaryText.style.color = color.value;
   primaryText.style.color = color.value;
+  boxP3.style.color = color.value;
   text.style.color = color.value;
   navigator.clipboard
     .writeText(color.value)

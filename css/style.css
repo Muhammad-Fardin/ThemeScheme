@@ -37,7 +37,7 @@ input[type="color"] {
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
-  height: 20%;
+  height: 15%;
   width: 100%;
   margin-top: 2rem;
 }
@@ -45,16 +45,19 @@ input[type="color"] {
 .primary {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .text {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .secondary {
   width: 200px;
   height: 200px;
+  text-align: center;
 }
 
 .layout {
@@ -67,11 +70,26 @@ input[type="color"] {
   width: 400px;
   height: 200px;
   margin-bottom: 15px;
-  padding: 20px;
+  margin-top: 15px;
   background-color: var(--secondary-color);
   border-radius: 12px;
+  box-shadow: 10px 10px 10px black;
+  overflow: hidden;
 }
 
+.box:hover {
+  box-shadow: -10px -10px 10px black;
+  
+}
+
+.box img {
+  width: 100%;
+}
+
+.box p {
+  color:#fff;
+  margin: 10px;
+}
 .border-bottom {
   border-bottom: 1px solid black;
 }
@@ -149,4 +167,3 @@ input[type="color"] {
   outline: none;
   border-radius: 12px;
 }
-
