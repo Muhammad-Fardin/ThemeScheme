@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="./css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/favicon.ico" rel="icon">
+  <title>ThemeScheme</title>
+</head>
+
+<body>
+  <div class="navbar border-bottom">
+    <p id="logo">ThemeScheme</p>
+  </div>
+
+  <div class="parent">
+    <div class="primary">
+      <p id="primary-text">Pick A Primary Color</p>
+      <input type="color" class="element" onChange="primaryColor(this)">
+    </div>
+
+    <div class="secondary">
+      <p id="secondary-text">Pick a Secondary Color</p>
+      <input type="color" onChange="secondaryColor(this)">
+    </div>
+
+    <div class="text">
+      <p id="text">Pick The Color for Text</p>
+      <input type="color" onChange="textColor(this)">
+    </div>
+  </div>
+
+  
+  <div id="modal">
+    <div id="modal-content">
+      <p id="modal-message"></p>
+      <button id="modal-close">OK</button>
+    </div>
+  </div>
+
+  <div class="layout">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+    <div class="box" id="box6"></div>
+  </div>
+
+  <div class="footer border-top">
+    <p id="footer-heading">Footer</p>
+    <a id="link" href="mailto:fardinbmw5@gmail.com?subject=bug found!">Report An Issue</a>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
