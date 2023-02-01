@@ -75,7 +75,8 @@ input[type="color"] {
 }
 
 .box:hover {
-  box-shadow: -10px -10px 10px black;
+  box-shadow: -10px -10px 10px cyan;
+  
 }
 
 .border-bottom {
