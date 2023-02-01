@@ -70,6 +70,7 @@ input[type="color"] {
   padding: 20px;
   background-color: var(--secondary-color);
   border-radius: 12px;
+  box-shadow: 10px 10px 10px black;
 }
 
 .border-bottom {
