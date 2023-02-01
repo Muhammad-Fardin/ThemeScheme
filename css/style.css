@@ -36,10 +36,10 @@ input[type="color"] {
 .parent {
   display: flex;
   justify-content: space-evenly;
-  align-items: baseline;
-  height: 15%;
+  height: 20vh;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  overflow-y: hidden;
 }
 
 .primary {
@@ -64,13 +64,14 @@ input[type="color"] {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .box {
   width: 400px;
   height: 200px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 20px;
   background-color: var(--secondary-color);
   border-radius: 12px;
   box-shadow: 10px 10px 10px black;
@@ -79,7 +80,6 @@ input[type="color"] {
 
 .box:hover {
   box-shadow: -10px -10px 10px black;
-  
 }
 
 .box img {
@@ -88,9 +88,10 @@ input[type="color"] {
 }
 
 .box p {
-  color:#fff;
+  color: #fff;
   margin: 10px;
 }
+
 .border-bottom {
   border-bottom: 1px solid black;
 }
@@ -127,7 +128,8 @@ input[type="color"] {
 }
 
 #link {
-  padding: 10px;
+  padding: 15px;
+  overflow-y: hidden;
   margin-right: 10px;
   text-decoration: none;
   color: white;
@@ -167,4 +169,12 @@ input[type="color"] {
   border: 1px solid black;
   outline: none;
   border-radius: 12px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .box {
+    width: 375px;
+    height: 375px;
+    margin: 20px;
+  }
 }
